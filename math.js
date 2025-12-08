@@ -31,3 +31,11 @@ console.log(Math.random());
 console.log(Math.floor (Math.random() *10) + 1);
 // 0 to 10000
 console.log(Math.floor(Math.random() * 10000) + 1);
+
+
+
+// Example Program
+// Given the string "shiyam", write a JavaScript program that on every page load/refresh — displays a single randomly chosen letter from that string in an input field. The chosen letter must come from the given input string and each refresh should independently pick a random character.
+let myName = "shiyam";
+console.log(myName.charAt(Math.floor(Math.random() * 6)));
+console.log(myName.charAt(Math.floor(Math.random() * myName.length)));  // Best way to write the code 
