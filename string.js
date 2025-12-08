@@ -35,7 +35,6 @@ console.log(myvar.split("")); //  ['M', 'a', 't', 'h', 'e', 'm', 'a', 't', 'i',
 console.log(myvar.split("e"));  // ['Math', 'matics']
 console.log(myvar2.split(" "));  // ['number', 'of', 'elements']
 
-
 //startsWith()
 console.log(myvar2.startsWith("number")); // true
 console.log(myvar2.startsWith("elements")); // false
@@ -51,8 +50,6 @@ console.log(myvar2.substring(0,12));  // number of el
 console.log(myvar2.replace("elements","character")); // number of elements -> number of character
 console.log("apple orange apple".replaceAll("apple","banana")); // banana orange banana
 
-
 //concat()
 let res = myvar.concat(" ", myvar2);
 console.log(res); // Mathematics number of elements
-
