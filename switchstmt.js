@@ -51,6 +51,7 @@ switch(player){
         console.log("Invalid choice");   
 }
 
+// Example 2
 let chatplayer = "no";
 let chatcomputer = "rock";
 
