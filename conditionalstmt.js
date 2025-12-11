@@ -23,3 +23,24 @@ else if(learnjs){
 else{
     console.log("Sorry! you are not a developer");
 }
+
+
+// Exam result 
+
+let testScore = 39;
+
+if(testScore >= 90 && testScore <= 100){
+    console.log(`Excellent`);
+}     
+else if(testScore >= 70 && testScore <= 89){
+    console.log(`Very Good`);
+}
+else if(testScore >= 40 && testScore <=69){
+    console.log(`Good`);
+}
+else if(testScore >= 30 && testScore <= 39){
+    console.log(`Improve`);  
+}
+else{
+    console.log(`Try to get a good mark`);
+}
