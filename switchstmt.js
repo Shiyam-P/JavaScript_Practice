@@ -12,8 +12,8 @@ switch(Math.floor(Math.random() * 4)){
 }
 
 // rock, paper, scissors
-let player = "rock";
-let computer = "rock";
+let player = "scissor";
+let computer = "paper";
 
 switch(player){
     case computer:
@@ -38,7 +38,7 @@ switch(player){
         }
         break;
 
-    case "scisser":
+    case "scissor":
         if(computer === "rock"){
             console.log("computer is win");
         }
