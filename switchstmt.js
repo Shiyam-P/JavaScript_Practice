@@ -13,7 +13,7 @@ switch(Math.floor(Math.random() * 4)){
 
 // rock, paper, scissors
 let player = "scissor";
-let computer = "paper";
+let computer = "rock";
 
 switch(player){
     case computer:
