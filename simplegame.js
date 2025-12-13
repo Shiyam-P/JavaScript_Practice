@@ -10,7 +10,8 @@ if (game) {
             let computerchoice = Math.floor(Math.random() * 3 + 1);
             let computer = computerchoice === 1 ? "rock" : computerchoice === 2 ? "paper" : "scissor";
             let result =
-                playerOne === computer ? "Tie game" :
+                playerOne
+                 === computer ? "Tie game" :
                     playerOne === "rock" ? (computer === "scissor" ? "player win" : "computer win") :
                         playerOne === "paper" ? (computer === "rock" ? "player win" : "computer win") :
                             playerOne === "scissor" ? (computer === "paper" ? "player win" : "computer win") :
