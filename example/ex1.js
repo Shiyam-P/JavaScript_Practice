@@ -1,6 +1,11 @@
-let value = 1;
+let someValue = 9;
 
-if(value >= 1){
+if(someValue === 0){
+    console.log("Zero");
+}
+else if(someValue >= 1){
     console.log("Positive");
-    
+}
+else{
+    console.log("Negative");
 }
