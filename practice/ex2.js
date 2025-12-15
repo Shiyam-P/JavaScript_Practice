@@ -1,6 +1,6 @@
 // Use a switch statement to print the day name based on day number.
 
-let day = 3;
+let day = 6;
 switch(day){
     case 1:
         console.log("Monday");
