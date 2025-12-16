@@ -1,25 +1,21 @@
-// Use a switch statement to print the day name based on day number.
-
-let day = 6;
-switch(day){
-    case 1:
-        console.log("Monday");
-        break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    case 3:
-        console.log("Wednesday");
-        break;
-    case 4:
-        console.log("Thuresday");
-        break;
-    case 5:
-        console.log("Friday");
-        break;
-    case 6:
-        console.log("Saturday");
-        break;
-    default:
-        console.log("Invalid Number");
+// Check whether a string contains a specific word
+let ch = "A curious cat quietly watched the rain dance on the window while the city slept";
+function specific() {
+    if (ch.includes("ca")) {
+        console.log("The word is present inside the string");
+    }
+    else {
+        console.log("The word not present inside the string");
+    }
 }
+specific();
+
+
+// Reverse the String
+let str = "hello";
+let reversed = "";
+
+for(i=str.length-1; i>=0; i--){
+    reversed = reversed + str[i];
+}
+console.log(reversed);
